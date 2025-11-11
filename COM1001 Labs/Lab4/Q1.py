@@ -1,3 +1,4 @@
+#Defines the four conditions with boolean values and validates them if the condition is met.
 def check_password_strength(password):
     lenCheck=False
     capCheck=False
