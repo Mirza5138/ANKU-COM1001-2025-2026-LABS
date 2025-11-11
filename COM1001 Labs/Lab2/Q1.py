@@ -2,6 +2,7 @@ num=int(input("Enter a number: "))
 divSum=0
 i=1
 
+#Go through the numbers until the number itself and add them to divSum if it is a divisor.
 while i<num:
     if num%i==0:
         divSum+=i
