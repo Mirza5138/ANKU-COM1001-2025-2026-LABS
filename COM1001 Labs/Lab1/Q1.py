@@ -1,7 +1,9 @@
+#Take inputs
 not1=int(input("Enter the 1st exam grade: "))
 not2=int(input("Enter the 2nd exam grade: "))
-not3=int(input("Enter the 3rd10 exam grade: "))
+not3=int(input("Enter the 3rd exam grade: "))
 
+#Go through the if conditions to see which grade it falls under.
 if 0 <= not1 <= 100 and 0 <= not2 <= 100 and 0 <= not3 <= 100:
     ortalama=(not1+not2+not3)/3
     print(f"Average: {ortalama}")
