@@ -1,0 +1,3 @@
+fast:quick,rapid,swift
+big:large,huge,massive
+small:tiny,minute
