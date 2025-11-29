@@ -1,4 +1,4 @@
-#Credits to Kerem Gökçek for submitting the solution to the repository.
+#Credits to Kerem Gökcek for submitting the solution to the repository.
 
 import random
 
@@ -50,4 +50,5 @@ if paths:
     for path in paths:
         print(" -> ".join([str(node) for node in path]))
 else:
+
     print("No paths exist between {} and {}".format(start_node, end_node))
